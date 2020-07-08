@@ -1,0 +1,8 @@
+streamlit==0.62.1
+numpy==1.17.4
+pandas==0.25.3
+plotly==4.8.2
+xlrd==1.2.0
+pystan==2.19.1.1
+fbprophet==0.6
+
