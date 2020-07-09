@@ -27,9 +27,6 @@ else:
     forecast
 
 
-<<<<<<< HEAD
 
 
 
-=======
->>>>>>> e65f119a81c61da78b4ca33a99bc46f6be3b6091

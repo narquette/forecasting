@@ -11,11 +11,7 @@ from fbprophet import Prophet
 app_password = 'kpi2020'
 
 # set file name for client
-<<<<<<< HEAD
 client_file = "KPI DashboardBaptist.xlsx"
-=======
-client_file = 'KPI DashboardBaptist.xlsx'
->>>>>>> e65f119a81c61da78b4ca33a99bc46f6be3b6091
 sheet = 'Weekly'
 
 class Forecast():
