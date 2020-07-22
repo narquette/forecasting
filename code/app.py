@@ -1,10 +1,11 @@
 import streamlit as st
+import os
 import session_state as ss
 import pandas as pd
 from config import Forecast, client_file, sheet
 
 # set Forecast Class
-forecast = Forecast(kpi_data=pd.read_excel(client_file, sheet_name=sheet))
+forecast = Forecast(kpi_data=pd.read_excel(os.path.join('../data',client_file), sheet_name=sheet))
 
 # set session password to blank
 session_state = ss.get(password='')
