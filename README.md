@@ -62,6 +62,7 @@ conda activate forecasting
 
 Code 
 - Where all the application code lives
+
 Data
 - Data needed to run the application
 
