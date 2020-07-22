@@ -41,7 +41,24 @@ conda activate forecast
 
 # Getting Started (Docker)
 
-TBD
+# Getting Started (Docker)
+
+1. Ensure Docker Desktop is running
+2. Pull docker image
+```cmd
+   docker pull narquette/forecasting
+```
+3. Start up docker image
+```cmd
+  docker run -it --rm -p 8501:8501 narquette/forecasting 
+```
+4. Run Streamlit app
+```sh
+  streamlit run app.py
+```
+5. Copy and paste url (127.0.0.1:52) into browser
+6. Enter password - kpi2020
+7. Interact with side bars (change kpi or facility)
 
 # Folder Overview
 
