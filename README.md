@@ -23,13 +23,13 @@ Option 2 - Docker Desktop
 git clone https://github.com/narquette/forecasting
 ```
 
-3. Change install script to executable and run install file (you may be prompted to enter the sudo password for installing java)
+3. Change install script to executable and run install file
 
 ```sh
 cd ~/forecasting
 chmod +x prereq_install.sh
 ./prereq_install.sh
-conda activate forecasting
+conda activate forecast
 ```
 
 4. Run stream list application
@@ -37,6 +37,7 @@ conda activate forecasting
 ```sh
   streamlit run app.py
 ```
+5. Copy url and paste into the browser
 
 # Getting Started (Docker)
 
@@ -59,4 +60,9 @@ conda activate forecasting
 
 # Folder Overview
 
+Code 
+- Where all the application code lives
+
+Data
+- Data needed to run the application
 
