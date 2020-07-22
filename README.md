@@ -35,28 +35,13 @@ conda activate forecast
 4. Run stream list application
 
 ```sh
-  streamlit run app.py
+  streamlit run code/app.py
 ```
 5. Copy url and paste into the browser
 
 # Getting Started (Docker)
 
-1. Ensure Docker Desktop is running
-2. Pull docker image
-```cmd
-   docker pull narquette/claims
-```
-3. Start up docker image
-```cmd
-  docker run -it --rm -p 8888:8888 narquette/claims 
-```
-4. Run Jupyter Notebook
-```sh
-  ./run_notebook.sh
-```
-5. Copy and paste url with tokens into browser
-6. Navigate to Code / Claims EDA.ipynb
-7. Run all cells
+TBD
 
 # Folder Overview
 
