@@ -29,7 +29,7 @@ git clone https://github.com/narquette/forecasting
 cd ~/forecasting
 chmod +x prereq_install.sh
 ./prereq_install.sh
-conda activate forecasting
+conda activate forecast
 ```
 
 4. Run stream list application
