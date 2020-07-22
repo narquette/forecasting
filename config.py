@@ -11,7 +11,7 @@ from fbprophet import Prophet
 app_password = 'kpi2020'
 
 # set file name for client
-client_file = "KPI DashboardBaptist.xlsx"
+client_file = 'KPI Dashboard.xlsx'
 sheet = 'Weekly'
 
 class Forecast():
@@ -95,7 +95,9 @@ class Forecast():
 
         # drop category columns
         self.data.drop('Category', axis=1, inplace=True)
-
+        
+        
+    @st.cache(suppress_st_warning=True)
     def GetData(self, facility=None, kpi=None):
         """ 
         The function to get all of the facility kpi data 
@@ -112,6 +114,7 @@ class Forecast():
                                         & (self.data['KPI'] == kpi)]
         return all_data
 
+    @st.cache(suppress_st_warning=True)
     def GetKPIs(self, facility=None):
         """ 
         The function to get the unique kpis to build the drop down in the streamlit kpi selector

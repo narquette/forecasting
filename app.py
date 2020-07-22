@@ -27,6 +27,3 @@ else:
     forecast
 
 
-
-
-
