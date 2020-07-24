@@ -41,8 +41,6 @@ conda activate forecast
 
 # Getting Started (Docker)
 
-# Getting Started (Docker)
-
 1. Ensure Docker Desktop is running
 2. Pull docker image
 ```cmd
