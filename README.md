@@ -35,7 +35,8 @@ conda activate forecast
 4. Run stream list application
 
 ```sh
-  streamlit run code/app.py
+  cd code
+  streamlit run app.py
 ```
 5. Copy url and paste into the browser
 
