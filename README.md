@@ -54,7 +54,7 @@ conda activate forecast
 ```sh
   streamlit run app.py
 ```
-5. [Launch App](https://127.0.0.1:8501)
+5. [Launch App](http://127.0.0.1:8501) or copy url into browser (http://127.0.0.1:8501)
 6. Enter password - kpi2020
 7. Interact with side bars (change kpi or facility)
 
