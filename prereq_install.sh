@@ -1,4 +1,4 @@
-#!/bin/bash
+#!usr/bin/bash
 FILE="../anaconda/bin"
 if [ -d "$FILE" ]; then
    echo "Anaconda Exists"
