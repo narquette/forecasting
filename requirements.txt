@@ -1,5 +1,5 @@
 streamlit==0.62.1
-numpy==1.17.4
+numpy==1.22.0
 pandas==0.25.3
 plotly==4.8.2
 xlrd==1.2.0
